@@ -5,6 +5,9 @@ function setup() {
 
 function draw() {
 
-	console.log (mouseIsPressed);
+if (mouseIsPressed==true){
+	ellipse(mouseX,mouseY,10,10);
+
+}
   
 }
