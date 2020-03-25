@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(600, 1000);
-  background(456, 345, 678);
+  background(255, 30, 115);
   srtokeWeight(5);
 
 }
