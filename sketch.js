@@ -58,6 +58,6 @@ beginShape();
 endShape();{
 		
 		//line(array[0][0], array[0][1],array[2][0],array[2][1]);
-	}
+}
 	return false;
 }
