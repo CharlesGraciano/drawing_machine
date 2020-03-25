@@ -16,6 +16,7 @@ canvas {
   top:0;
   left:0;
   position: absolute;
+  z-index: -1;
   display: block;
   border:8px solid black;
 }
