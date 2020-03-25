@@ -17,3 +17,10 @@ if (mouseIsPressed==true){
   
 
 }
+function keyTyped(){
+
+	if(key==='s'){
+		console.log(`key s is being typed`)
+	} 
+	return false;
+}
