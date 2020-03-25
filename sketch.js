@@ -12,7 +12,8 @@ function setup() {
 
 function draw() {
  //if (mouseIsPressed){
-if (mouseIsPressed==true){
+// if (mouseIsPressed==true){
+	background(200,0,0,10);
 	stroke(map(mouseX,0,500,0,300,true));
 	line(width-mouseX, height-mouseY, width-pmouseX, height-pmouseY);
 	line(mouseX, mouseY, pmouseX, pmouseY);
