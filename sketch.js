@@ -20,7 +20,8 @@ if (mouseIsPressed==true){
 function keyTyped(){
 
 	if(key==='s'){
-		console.log(`key s is being typed`)
+	//save this image
+	saveCanvas('fileName', 'png');
 	} 
-	return false;
+	return false;  
 }
