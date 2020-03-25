@@ -55,7 +55,7 @@ beginShape();
 			curveVertex(array[i][0], array[i][1]);
 
 		}
-endShape();
+endShape();{
 		
 		//line(array[0][0], array[0][1],array[2][0],array[2][1]);
 	}
